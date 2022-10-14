@@ -9,7 +9,7 @@ public class AmazonLogin {
         driver.manage().window().maximize();
         driver.navigate().to("https://www.amazon.in/");
         driver.findElement(By.id("nav-link-accountList")).click();
-        driver.findElement(By.name("email")).sendKeys("8618518485");
+        driver.findElement(By.name("email")).sendKeys("8618518484");
         driver.findElement(By.xpath("//input[@id='continue']")).click();
         driver.findElement(By.id("ap_password")).sendKeys("shreyakrishna0703@");
         driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
